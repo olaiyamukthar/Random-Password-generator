@@ -33,8 +33,6 @@ function generateRandomPasswordTwo() {
 
 
 function password() {
-    let firstRandomPassword = generateRandomPasswordOne()
-    optionOne.textContent = firstRandomPassword
-    let secondRandomPassword = generateRandomPasswordTwo()
-    optionTwo.textContent = secondRandomPassword
+    optionOne.textContent = generateRandomPasswordOne()
+    optionTwo.textContent = generateRandomPasswordTwo()
 }
